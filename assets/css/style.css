@@ -1,0 +1,41 @@
+/* Fonts */
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+/*@import url('components/component.css');*/
+
+/* Media queries */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 720px) {
+}
+
+@media (max-width: 660px) {
+}
+
+@media (max-width: 580px) {
+}
+
+/* Utilities */
+body {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+p {
+}
+
+a {
+}
+
+/* CUSTOM DESIGN */
