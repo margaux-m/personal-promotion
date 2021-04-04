@@ -2,10 +2,26 @@
   padding: 160px 200px;
   background: linear-gradient(180deg, rgba(125, 131, 255, 0.9) 0%, rgba(30, 37, 92, 0.9) 100%);
   text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  position: relative;
+  z-index: 4;
 }
 
 .hero-info {
   line-height: 1.8;
   color: #F9FAFB;
   margin-bottom: 60px;
+  position: relative;
+  z-index: 3;
+}
+
+#music-note {
+  position: absolute;
+  z-index: 1;
+  bottom: 60px;
+  right: 120px;
 }
