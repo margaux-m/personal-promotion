@@ -1,0 +1,23 @@
+.btn {
+  padding: 10px 20px;
+}
+
+.btn-solid {
+  color: #F9FAFB;
+  background-color: #7D83FF;
+  border-radius: 5px;
+}
+
+.btn-solid:hover {
+  background-color: #3C4BB9;
+}
+
+.btn-outline-round {
+  background-color: #F9FAFB;
+  border-radius: 50%;
+}
+
+.btn-outline-round:hover {
+  color: #F9FAFB;
+  background-color: #F391B3;
+}

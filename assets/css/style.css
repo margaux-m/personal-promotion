@@ -5,7 +5,7 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Components */
-/*@import url('components/component.css');*/
+@import url('components/button.css');
 
 /* Media queries */
 @media (max-width: 1200px) {
@@ -28,6 +28,7 @@ body {
   background-color: #F9FAFB;
   font-family: 'Karla', sans-serif;
   font-size: 1.5rem;
+  color: #1E255C;
 }
 
 h1, h2 {
@@ -47,6 +48,7 @@ h1 {
 h2 {
   font-weight: 800;
   font-size: 2.2rem;
+  color: #7D83FF;
 }
 
 h3 {
@@ -58,6 +60,11 @@ p {
 }
 
 a {
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 900;
+  color: #7D83FF;
+  text-align: center;
 }
 
 /* CUSTOM DESIGN */
