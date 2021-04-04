@@ -2,3 +2,17 @@
   margin: 0 auto;
   width: 90%;
 }
+
+.container-intro {
+  margin: 140px auto;
+  width: 65%;
+}
+
+.container-intro > p {
+  margin-bottom: 40px;
+}
+
+.container-intro > h2 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
