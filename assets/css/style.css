@@ -7,6 +7,7 @@
 /* Components */
 @import url('components/button.css');
 @import url('components/card.css');
+@import url('components/contact.css');
 @import url('components/container.css');
 @import url('components/hero.css');
 @import url('components/list.css');
@@ -78,4 +79,17 @@ a {
   color: #7D83FF;
   text-align: center;
   font-size: 1rem;
+}
+
+.white {
+  color: #F9FAFB;
+}
+
+.dark-blue {
+  color: #1E255C;
+  margin: 0;
+}
+
+.blue-background {
+  background-color: #7D83FF;
 }

@@ -24,3 +24,16 @@
   color: #F9FAFB;
   background-color: #F391B3;
 }
+
+.btn-form {
+  background-color: #F9FAFB;
+  color: #7D83FF;
+  font-weight: 700;
+  font-family: 'Jost', sans-serif;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-form > i {
+  margin-left: 10px;
+}
