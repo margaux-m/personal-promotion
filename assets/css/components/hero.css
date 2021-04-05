@@ -9,14 +9,15 @@
 .hero-title {
   position: relative;
   z-index: 4;
+  margin: 0;
 }
 
 .hero-info {
-  line-height: 1.8;
   color: #F9FAFB;
   margin-bottom: 60px;
   position: relative;
   z-index: 3;
+  padding: 0;
 }
 
 #music-note {
