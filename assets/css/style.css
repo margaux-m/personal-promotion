@@ -6,6 +6,7 @@
 
 /* Components */
 @import url('components/button.css');
+@import url('components/card.css');
 @import url('components/container.css');
 @import url('components/hero.css');
 @import url('components/list.css');
@@ -62,7 +63,7 @@ h3 {
   font-size: 1.7rem;
   line-height: 1.8;
   padding: 0 40px;
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 }
 
 p {
@@ -78,5 +79,3 @@ a {
   text-align: center;
   font-size: 1rem;
 }
-
-/* CUSTOM DESIGN */
