@@ -20,7 +20,7 @@
   font-size: 1.2rem;
 }
 
-.btn-outline-round:hover {
+.btn-outline-round:hover, .btn-form:hover {
   color: #F9FAFB;
   background-color: #F391B3;
 }
