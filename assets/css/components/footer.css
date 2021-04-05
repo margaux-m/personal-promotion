@@ -1,0 +1,42 @@
+footer {
+  background-color: #1E255C;
+  color: #F9FAFB;
+  font-weight: 700;
+  padding: 80px 0;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  margin: 20px 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-header {
+  font-family: 'Jost', sans-serif;
+  color: #7D83FF;
+
+}
+
+.footer-email {
+  font-size: 1.4rem;
+}
+
+.fa-facebook-square {
+  font-size: 2.6rem;
+  color: #7D83FF;
+}
+
+.fa-facebook-square:hover {
+  color: #3C4BB9;
+}
