@@ -1,3 +1,4 @@
-import { toggleSocialImage } from './toggleSocialImage.js';
+import { changeImageOnHover } from './toggleSocialImage.js';
 
-toggleSocialImage();
+changeImageOnHover();
+
