@@ -1,0 +1,20 @@
+ol {
+  padding-left: 0;
+  margin: 60px 0;
+}
+
+li.numbered-list {
+  line-height: 1.7;
+  margin: 0;
+  padding: 0 0 60px 120px;
+  list-style: none;
+  background-image: url("../../images/ordered-list-one.svg");
+  background-repeat: no-repeat;
+  background-position: top 10px left 0px;
+  background-size: 80px;
+}
+
+li.numbered-list:last-child {
+  background-image: url("../../images/ordered-list-two.svg");
+  padding-bottom: 0;
+}
