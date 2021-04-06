@@ -13,6 +13,10 @@
   background-color: #3C4BB9;
 }
 
+.btn-navbar {
+  margin-left: 60px;
+}
+
 .btn-outline-round {
   background-color: #F9FAFB;
   padding: 20px 50px;
