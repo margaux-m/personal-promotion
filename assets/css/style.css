@@ -83,6 +83,7 @@ a {
   font-size: 1rem;
 }
 
+/* Custom design */
 .white {
   color: #F9FAFB;
 }
@@ -94,4 +95,12 @@ a {
 
 .blue-background {
   background-color: #7D83FF;
+}
+
+a.active-language, a.active-language:hover {
+  color: #F391B3;
+}
+
+a.active-language-blue, a.active-language-blue:hover {
+  color: #1E255C;
 }
