@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 input.switch {
@@ -47,6 +48,7 @@ input.switch {
 #en, #fr {
   font-weight: 700;
   font-size: 1rem;
+  user-select: none;
 }
 
 #en {

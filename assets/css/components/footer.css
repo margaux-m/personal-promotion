@@ -25,7 +25,6 @@ footer {
 .footer-header {
   font-family: 'Jost', sans-serif;
   color: #7D83FF;
-
 }
 
 .footer-email {
@@ -38,5 +37,22 @@ footer {
 }
 
 .fa-facebook-square:hover {
+  color: #3C4BB9;
+}
+
+.languages-footer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.languages-footer > a, .languages-footer > p {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 10px;
+  color: #7D83FF;
+}
+
+.languages-footer > a:hover {
   color: #3C4BB9;
 }
