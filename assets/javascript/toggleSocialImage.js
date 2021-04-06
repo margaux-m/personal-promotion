@@ -20,7 +20,7 @@ const resetImageSource = (event) => {
   } else if (event.currentTarget == spotifyImage) {
     event.currentTarget.setAttribute('src', 'assets/images/spotify.svg');
   }
-}
+};
 
 const bindImageToHover = (image) => {
   image.addEventListener('mouseover', changeImageSource);
