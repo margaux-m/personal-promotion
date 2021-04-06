@@ -108,3 +108,14 @@ a.active-language, a.active-language:hover {
 a.active-language-blue, a.active-language-blue:hover {
   color: #1E255C;
 }
+
+.error {
+  padding: 8rem 5rem;
+  background: linear-gradient(180deg, rgba(125, 131, 255, 0.9) 0%, rgba(30, 37, 92, 0.9) 100%);
+  max-height: 1000px;
+}
+
+.error-title {
+  font-size: 9rem;
+  margin-top: 0;
+}

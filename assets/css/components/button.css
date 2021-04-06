@@ -18,6 +18,19 @@
   padding: 12.5px 30px;
 }
 
+.btn-outline {
+  color: #7D83FF;
+  background-color: #F9FAFB;
+  border: 2px solid #7D83FF;
+  border-radius: 5px;
+}
+
+.btn-outline:hover {
+  color: #3C4BB9;
+  border: 2px solid #3C4BB9;
+}
+
+
 .btn-outline-round {
   background-color: #F9FAFB;
   padding: 20px 50px;
