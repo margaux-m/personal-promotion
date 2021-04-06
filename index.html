@@ -178,13 +178,21 @@
         </div>
         <!-- Contact form -->
         <div class="form">
-          <p class="form-label">NAME</p>
-          <p class="form-label">EMAIL</p>
-          <p class="form-label">MESSAGE</p>
-          <div class="btn btn-solid btn-form">
-            <p>Send</p>
-            <i class="fas fa-paper-plane"></i>
-          </div>
+          <form action="https://formspree.io/f/mdoyozla" method="POST">
+            <label>
+              <span class="form-label">NAME</span>
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              <span class="form-label">EMAIL</span>
+              <input type="email" name="email" required>
+            </label>
+            <label>
+              <span class="form-label">MESSAGE</span>
+              <textarea name="message" cols="30" rows="10" required></textarea>
+            </label>
+            <button type="submit">Send <i class="fas fa-paper-plane"></i></button>
+          </form>
         </div>
       </div>
     </div>
