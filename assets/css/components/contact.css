@@ -12,7 +12,7 @@
 .contact-info {
   margin: 60px 0;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .contact-details {
@@ -22,14 +22,14 @@
 }
 
 .contact-details > i {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-right: 30px;
 }
 
 .form-label {
   font-family: 'Jost', sans-serif;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 label {

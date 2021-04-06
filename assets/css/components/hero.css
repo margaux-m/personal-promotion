@@ -1,5 +1,5 @@
 .hero {
-  padding: 160px 200px;
+  padding: 8rem 5rem;
   background: linear-gradient(180deg, rgba(125, 131, 255, 0.9) 0%, rgba(30, 37, 92, 0.9) 100%);
   text-align: center;
   position: relative;
@@ -26,3 +26,14 @@
   bottom: 60px;
   right: 120px;
 }
+
+.fa-chevron-down {
+  font-size: 3rem;
+  margin-top: 60px;
+}
+
+.fa-chevron-down:hover {
+  color: #F391B3;
+}
+
+

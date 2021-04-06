@@ -1,6 +1,10 @@
 .tool {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 120px;
+}
+
+.tool:last-child {
   margin-bottom: 140px;
 }
 
@@ -8,6 +12,7 @@
   text-align: right;
   justify-self: end;
   width: 55%;
+  transition: 0.5s 1s;
 }
 
 .tool-title {
@@ -16,16 +21,4 @@
 
 #facebook {
   justify-self: start;
-}
-
-#facebook:hover {
-
-}
-
-#youtube:hover {
-
-}
-
-#spotify:hover {
-
 }

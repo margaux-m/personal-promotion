@@ -12,6 +12,7 @@ footer {
 }
 
 .tagline {
+  font-weight: 500;
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -28,6 +29,7 @@ footer {
 }
 
 .footer-email {
+  font-weight: 500;
   font-size: 1.4rem;
 }
 
