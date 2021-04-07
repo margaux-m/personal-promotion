@@ -10,15 +10,16 @@
 
 .tool-images {
   text-align: right;
-  justify-self: end;
-  width: 55%;
   position: relative;
+}
+
+.tool-images > img {
+  width: 55%;
 }
 
 .tool-image-hover {
   position: absolute;
-  top: 0;
-  left: 0;
+  right: 0;
   opacity: 0;
   transition: opacity 1s ease-out;
 }
@@ -28,11 +29,15 @@
 }
 
 .tool-title {
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
 }
 
 .facebook {
-  justify-self: start;
+  text-align: left;
+}
+
+.facebook > img.tool-image-hover {
+  left: 0;
 }
 
 .tool-images {
