@@ -83,6 +83,12 @@
   .languages-navbar {
     justify-content: center;
   }
+  #cta-back-navbar {
+    display: none;
+  }
+  #cta-back {
+    display: inline-block;
+  }
 }
 
 /* Utilities */
@@ -166,6 +172,7 @@ a.active-language-blue, a.active-language-blue:hover {
   padding: 8rem 5rem;
   background: linear-gradient(180deg, rgba(125, 131, 255, 0.9) 0%, rgba(30, 37, 92, 0.9) 100%);
   max-height: 1000px;
+  text-align: center;
 }
 
 .error-title {
