@@ -14,7 +14,7 @@
 @import url('components/list.css');
 @import url('components/logo.css');
 @import url('components/navbar.css');
-@import url('components/switch.css');
+/*@import url('components/switch.css');*/
 
 /* Media queries */
 @media (max-width: 1200px) {

@@ -6,29 +6,16 @@
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  position: relative;
-  z-index: 2;
 }
 
 .hero-title {
-  position: relative;
-  z-index: 4;
   margin: 0;
 }
 
 .hero-info {
   color: #F9FAFB;
   margin-bottom: 60px;
-  position: relative;
-  z-index: 3;
   padding: 0;
-}
-
-.music-note {
-  position: absolute;
-  z-index: 1;
-  /*bottom: 60px;
-  right: 120px;*/
 }
 
 .fa-chevron-down {
@@ -39,5 +26,3 @@
 .fa-chevron-down:hover {
   color: #F391B3;
 }
-
-

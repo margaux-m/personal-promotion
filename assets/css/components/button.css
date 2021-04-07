@@ -38,11 +38,6 @@
   font-size: 1.2rem;
 }
 
-.btn-outline-round:hover, .btn-form:hover {
-  color: #F9FAFB;
-  background-color: #F391B3;
-}
-
 button {
   font-family: 'Jost', sans-serif;
   font-size: 1.2rem;
@@ -56,9 +51,12 @@ button {
 }
 
 button:hover {
-  background-color: #F391B3;
-  color: #F9FAFB;
   box-shadow: 2px 2px 2px rgba(30, 37, 92, 0.2);
+}
+
+.btn-outline-round:hover, .btn-form:hover, button:hover {
+  color: #F9FAFB;
+  background-color: #F391B3;
 }
 
 #cta-back {
