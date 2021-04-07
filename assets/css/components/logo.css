@@ -1,11 +1,34 @@
-#logo-navbar {
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-images {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.logo-hover:hover {
+  opacity: 1;
+}
+
+.logo-navbar {
   width: 45px;
   margin-right: 20px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.logo-footer {
+  width: 100px;
+  margin-bottom: 20px;
 }
 
 .logo-text {
@@ -14,16 +37,11 @@
   font-size: 2rem;
 }
 
+.logo-text-footer {
+  font-size: 2.4rem;
+}
+
 .pro {
   color: #7D83FF;
   font-style: italic;
-}
-
-#logo-footer {
-  width: 100px;
-  margin-bottom: 20px;
-}
-
-.logo-footer {
-  font-size: 2.4rem;
 }
