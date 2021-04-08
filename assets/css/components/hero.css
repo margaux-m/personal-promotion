@@ -13,6 +13,9 @@
 }
 
 .hero-info {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
   color: #F9FAFB;
   margin-bottom: 60px;
   padding: 0;
