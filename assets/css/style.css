@@ -220,3 +220,9 @@ a.active-language-blue, a.active-language-blue:hover {
   font-size: 9rem;
   margin-top: 0;
 }
+
+.email-address {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
