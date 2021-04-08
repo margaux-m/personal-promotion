@@ -66,6 +66,12 @@
   }
 }
 
+@media (max-width: 660px) {
+  p.logo-text-footer {
+    padding: 0;
+  }
+}
+
 @media (max-width: 580px) {
   .contact-text {
     padding-right: 0;
@@ -88,6 +94,41 @@
   }
   #cta-back {
     display: inline-block;
+  }
+}
+
+@media (max-width: 570px) {
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo-text {
+    font-size: 1.8rem;
+    padding: 0 10px;
+  }
+  .logo-navbar {
+    margin: 0 0 10px 0;
+  }
+  .hero {
+    padding: 60px 30px;
+  }
+  .hero-title, .container-tools > h1 {
+    font-size: 3rem;
+  }
+  li.numbered-list {
+    padding: 0 0 40px 0;
+    background-image: none;
+  }
+  li.numbered-list:last-child {
+    background-image: none;
+  }
+  .container-tools > h3 {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+  input, textarea {
+    width: 100%;
   }
 }
 
