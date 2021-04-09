@@ -17,6 +17,7 @@ Personal Promotion's website is a simple static website, working as a landing pa
 - Footer with logo, contact info and Facebook icon
 
 All fully responsive to diverse screen sizes.📱
+Performance and accessibility check by Lighthouse performed and passed.📊🔍
 
 ![Navbar and hero banner](/assets/images/personal-promotion-1.png "Hero banner")
 ![Contact section](/assets/images/personal-promotion-2.png "Contact form")
