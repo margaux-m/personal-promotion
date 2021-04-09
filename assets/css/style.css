@@ -226,3 +226,8 @@ a.active-language-blue, a.active-language-blue:hover {
   font-weight: 700;
   font-size: 1.5rem;
 }
+
+/* SPAM PROTECTION */
+span.spamprotection {
+  display:none;
+}
